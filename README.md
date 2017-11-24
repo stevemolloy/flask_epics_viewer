@@ -25,8 +25,7 @@ docker-compose up -d
 docker-compose run --rm web python ./instance/db_create.py
 ```
 
-Go to your favorite web browser and open:
-    http://192.168.99.100:5000  $ Check the IP address using 'docker-machine ip'
+Go to your favorite web browser and go to [http://0.0.0.0:8000/](http://0.0.0.0:8000/) (make sure to check the IP with `docker ps -a`).
 
 ## Key Python Modules Used
 
