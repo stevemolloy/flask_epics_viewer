@@ -1,5 +1,5 @@
 import os
-from .project import app
+from project import app
 
 
 # Postgres Initialization Files
